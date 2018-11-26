@@ -60,6 +60,28 @@ gravitee loaddata oauth/fixtures/scopes.yml oauth/fixtures/roles.yml oauth/fixtu
 * oauth_scopes
 * oauth_roles
 
+## 五、界面添加测试用户
+
+在%GOPATH%/src/github.com/spring2go/gravitee目录中
+
+运行**runserver**运行gravitee服务器
+
+```
+gravitee runserver
+```
+
+通过浏览器添加测试用户
+
+```
+http://localhost:8080/web/register?client_id=test_client_1
+```
+
+用户名:bobo@spring2go.com
+密码:test_password
+
+
+
+
 
 
 
