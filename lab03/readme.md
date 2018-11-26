@@ -22,7 +22,7 @@ https://www.example.com/?code=7afb1c55-76e4-4c76-adb7-9d657cb47a27&state=somesta
 Postman请求：
 
 ```
-curl -X POST --user clientapp:test_client_1 http://localhost:8080/v1/oauth/tokens -d "code=7afb1c55-76e4-4c76-adb7-9d657cb47a27&grant_type=authorization_code&redirect_uri=https://www.example.com&scope=read_write"
+curl -X POST --user test_client_1:test_secret http://localhost:8080/v1/oauth/tokens -d "code=7afb1c55-76e4-4c76-adb7-9d657cb47a27&grant_type=authorization_code&redirect_uri=https://www.example.com&scope=read_write"
 
 ```
 

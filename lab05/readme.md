@@ -5,7 +5,7 @@
 Postman请求：
 
 ```
-curl -X POST --user clientapp:test_client_1 http://localhost:8080/v1/oauth/tokens -d "grant_type=password&username=bobo@spring2go.com&password=test_password&scope=read_write"
+curl -X POST --user test_client_1:test_secret http://localhost:8080/v1/oauth/tokens -d "grant_type=password&username=bobo@spring2go.com&password=test_password&scope=read_write"
 ```
 
 

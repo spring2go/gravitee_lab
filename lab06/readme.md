@@ -5,7 +5,7 @@
 Postman请求：
 
 ```
-curl -X POST --user clientapp:test_client_1 http://localhost:8080/v1/oauth/tokens -d "grant_type=client_credentials&scope=read_write"
+curl -X POST --user test_client_1:test_secret http://localhost:8080/v1/oauth/tokens -d "grant_type=client_credentials&scope=read_write"
 ```
 
 响应案例：
