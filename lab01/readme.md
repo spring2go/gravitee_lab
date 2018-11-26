@@ -14,6 +14,8 @@ go env
 ```
 确保**GOROOT**(go语言安装目录)和**GOPATH**(go语言工作区)设置正确，建议Windows环境变量设置中定制自己的**GOPATH**。
 
+确保%GOROOT%/bin和%GOPATH%/bin在操作系统PATH环境变量中。
+
 ## 二、安装vscode
 
 ### 安装
@@ -49,6 +51,35 @@ Hello World!
 ```
 
 尝试在vscode中打断点进行调试，验证vscode和golang扩展安装正确。
+
+## 四、安装glide包管理工具
+
+```
+go get github.com/Masterminds/glide
+
+go install github.com/Masterminds/glide
+```
+
+校验
+
+```
+glide
+```
+
+## 五、下载gravitee源码
+
+在github上下载[gravitee](https://github.com/spring2go/gravitee)源码gravitee-master.zip包，创建%GOPATH%/src/github.com/spring2go/gravitee目录，将gravitee-master.zip包内(不包括gravitee-master目录)源码解压到%GOPATH%/src/github.com/spring2go/gravitee目录中。
+
+
+在%GOPATH%/src/github.com/spring2go/gravitee目录中打开命令窗口，下载vendor依赖
+
+```
+glide install
+```
+
+检查vendor目录已创建，内部依赖完整下载
+
+在vscode中打开gravitee目录，浏览gravitee源代码
 
 ## 附录
 
