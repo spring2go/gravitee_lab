@@ -8,6 +8,9 @@
 http://localhost:8080/web/authorize?client_id=test_client_1&redirect_uri=http://www.example.com&response_type=code&state=somestate&scope=read_write
 ```
 
+根据页面提示认证和授权客户应用
+
+
 响应案例：
 
 ```
