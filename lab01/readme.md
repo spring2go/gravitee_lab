@@ -14,6 +14,12 @@ go env
 ```
 确保**GOROOT**(go语言安装目录)和**GOPATH**(go语言工作区)设置正确，建议Windows环境变量设置中定制自己的**GOPATH**。
 
+在%GOPATH%下创建go语言工作区标准目录结构：
+
+* bin
+* pkg
+* src
+
 确保%GOROOT%/bin和%GOPATH%/bin在操作系统PATH环境变量中。
 
 ## 二、安装vscode
@@ -39,7 +45,7 @@ import "fmt"
 
 func main() {
 
-  fmt.println("Hello World!")
+  fmt.Println("Hello World!")
 
 }
 ```
