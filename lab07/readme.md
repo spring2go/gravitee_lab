@@ -26,5 +26,11 @@ curl -X POST --user test_client_2:test_secret http://localhost:8080/v1/oauth/int
 
 ```
 
+## 三、参考
+
+https://tools.ietf.org/html/rfc7662
+
+
+
 
 
