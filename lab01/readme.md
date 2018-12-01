@@ -30,7 +30,7 @@ go env
 
 ## 三、Hello World!
 
-在%GPATH%\src`中编写你的Hello World!程序hello.go
+在%GOPATH%\src`中编写你的Hello World!程序hello.go
 
 ```go
 package main
