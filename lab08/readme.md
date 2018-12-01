@@ -2,9 +2,9 @@
 
 ## 一、先决条件
 
-通过lab03/05/06其中一个获取刷新令牌(refresh token)
+通过lab03/05其中一个获取刷新令牌(refresh token)
 
-## 二、校验令牌
+## 二、刷新令牌
 
 Postman请求：
 
