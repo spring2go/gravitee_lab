@@ -29,7 +29,7 @@ go build gravitee-server.go
 运行**migrate**生成数据库表
 
 ```
-gravitee migate
+./gravitee-server.exe migate
 ```
 
 通过mysql workbench检查下列表格已经成功创建：
@@ -50,7 +50,7 @@ gravitee migate
 运行**loaddata**加载种子数据
 
 ```
-gravitee loaddata oauth/fixtures/scopes.yml oauth/fixtures/roles.yml oauth/fixtures/test_clients.yml oauth/fixtures/test_users.yml
+./gravitee-server.exe loaddata oauth/fixtures/scopes.yml oauth/fixtures/roles.yml oauth/fixtures/test_clients.yml oauth/fixtures/test_users.yml
 ```
 
 通过mysql workbench检查下列表格中已经有种子数据：
@@ -67,7 +67,7 @@ gravitee loaddata oauth/fixtures/scopes.yml oauth/fixtures/roles.yml oauth/fixtu
 运行**runserver**运行gravitee服务器
 
 ```
-gravitee runserver
+./gravitee-server.exe runserver
 ```
 
 通过浏览器添加测试用户
