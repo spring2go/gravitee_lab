@@ -39,6 +39,12 @@ curl -X POST --user test_client_1:test_secret http://localhost:8080/v1/oauth/tok
 }
 ```
 
+## 三、参考
+
+https://tools.ietf.org/html/rfc6749#section-4.1
+
+
+
 
 
 
