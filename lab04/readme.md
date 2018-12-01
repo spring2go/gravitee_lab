@@ -5,7 +5,7 @@
 浏览器请求：
 
 ```
-http://localhost:8080/web/authorize?client_id=test_client_1&redirect_uri=http://www.example.com&response_type=token&state=somestate&scope=read_write
+http://localhost:8080/web/authorize?client_id=test_client_1&redirect_uri=https://www.example.com&response_type=token&state=somestate&scope=read_write
 ```
 
 根据页面提示认证和授权客户应用
@@ -15,6 +15,11 @@ http://localhost:8080/web/authorize?client_id=test_client_1&redirect_uri=http://
 ```
 https://www.example.com/#access_token=087902d5-29e7-417b-a339-b57a60d6742a&expires_in=3600&scope=read_write&state=somestate&token_type=Bearer
 ```
+
+## 二、参考
+
+https://tools.ietf.org/html/rfc6749#section-4.2
+
 
 
 
