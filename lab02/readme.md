@@ -29,7 +29,7 @@ go build gravitee-server.go
 运行**migrate**生成数据库表
 
 ```
-./gravitee-server.exe migate
+./gravitee-server.exe migrate
 ```
 
 通过mysql workbench检查下列表格已经成功创建：
